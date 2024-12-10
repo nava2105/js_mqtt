@@ -10,7 +10,7 @@ This project is a basic **MQTT client** integrated with an **Express.js server**
 
 - **MQTT Publish**:
   - Topic: `test/hola`
-  - Message: `{"message": "Hola Mundo desde MQTT en javascript"}`
+  - Message: `{"message": "Hello World from MQTT in javascript"}`
 
 - **HTTP Endpoint**:
   - Route: `/`
@@ -22,6 +22,7 @@ A list of technologies used within the project:
 * [Node.js](https://nodejs.org): Version 20.0.0
 * [Express.js](https://expressjs.com): Version 4.x
 * [MQTT.js](https://www.npmjs.com/package/mqtt): Version 4.x
+* [Swagger](https://swagger.io/docs): Version 0.0.2
 
 ## Installation
 ***  
@@ -51,6 +52,10 @@ node app.js
 ```
 Open a browser and enter to
 Server: [http://localhost:3000](http://localhost:3000)
+
+
+Or to review the endpoints in Swagger enter to
+[http://localhost:3000/api-docs](http://localhost:3000/api-docs)
 ### Via Docker-hub
 Pull the image from Docker-hub
 ```
@@ -62,3 +67,7 @@ docker run -p 3000:3000 na4va4/js_mqtt
 ```
 Open a browser and enter to
 Server: [http://localhost:3000](http://localhost:3000)
+
+
+Or to review the endpoints in Swagger enter to
+[http://localhost:3000/api-docs](http://localhost:3000/api-docs)
